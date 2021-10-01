@@ -128,6 +128,9 @@ body {
   font-weight: 400px;
 }
 /* section----2 */
+.bottom {
+  width: 100%;
+}
 .section2 {
   background-image: url(../image/Group13.jpg);
   width: 100%;
@@ -136,4 +139,55 @@ body {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   margin-top: 90px;
+  flex-direction: column;
+  display: flex;
+}
+.botom-info {
+  display: flex;
+  width: 376px;
+  height: 135px;
+  flex-direction: column;
+  margin-left: 220px;
+  margin-top: 113px;
+}
+.h444 {
+  font-size: 14px;
+  display: flex;
+  color: #5863f8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.h222 {
+  display: flex;
+  color: white;
+  font-size: 42px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* quadrabox */
+.quadra-box {
+  display: flex;
+  flex-direction: row;
+  width: 1088px;
+  margin: 34px auto;
+  height: 260px;
+  justify-content: space-between;
+}
+.quadrabox {
+  display: flex;
+  width: 260px;
+  height: 260px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+}
+.zeta {
+  display: flex;
+  width: 59px;
+  height: 58px;
+  border-radius: 50px;
+  background-color: #5863f8;
+  align-content: center;
+  margin: 27px auto;
+}
+.zeta-img {
+  margin: 0 auto;
 }
