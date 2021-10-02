@@ -191,3 +191,18 @@ body {
 .zeta-img {
   margin: 0 auto;
 }
+.title {
+  width: 166px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.lorem {
+  width: 221px;
+  height: 61px;
+  font: 16px;
+  font-weight: 500;
+  color: gray;
+  text-align: center;
+}
