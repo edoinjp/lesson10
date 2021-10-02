@@ -4,12 +4,12 @@
   }
   .double-box {
     height: auto;
-    width: 100%;
+    max-width: 100%;
     flex-wrap: wrap;
   }
   .quadra-box {
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
   }
   .left-box {
@@ -21,8 +21,8 @@
 }
 @media (max-width: 600px) {
   .double-box {
-    width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
     flex-wrap: wrap;
   }
   .triple-img {
@@ -30,10 +30,18 @@
   }
   .top-img {
     width: 100%;
-
     flex-wrap: wrap;
   }
   .bottom-img {
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .botom-info {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .bimg {
+    max-width: 100%;
   }
 }
