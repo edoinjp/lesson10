@@ -1,0 +1,39 @@
+@media (max-width: 1250px) {
+  .navline {
+    max-width: 100%;
+  }
+  .double-box {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .quadra-box {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .left-box {
+    margin: 0 auto;
+  }
+  .triple-img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .double-box {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .triple-img {
+    width: 100%;
+  }
+  .top-img {
+    width: 100%;
+
+    flex-wrap: wrap;
+  }
+  .bottom-img {
+    width: 100%;
+  }
+}
