@@ -44,4 +44,34 @@
   .bimg {
     max-width: 100%;
   }
+  .aboutus {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ul {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .top-img {
+    display: flex;
+    justify-content: center;
+  }
+  .img2 {
+    margin-left: 16px;
+  }
+  .section2 {
+    margin-bottom: 20px;
+  }
+  .section2 {
+    height: auto;
+  }
+  .quadra-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .bottom {
+    padding-top: 20px;
+  }
 }
