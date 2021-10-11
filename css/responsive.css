@@ -39,7 +39,7 @@
   }
   .botom-info {
     max-width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
   }
   .bimg {
     max-width: 100%;
@@ -56,12 +56,10 @@
   .top-img {
     display: flex;
     justify-content: center;
+    height: auto;
   }
   .img2 {
     margin-left: 16px;
-  }
-  .section2 {
-    margin-bottom: 20px;
   }
   .section2 {
     height: auto;
@@ -70,9 +68,10 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    height: auto;
   }
-  
-  .bottom {
-    padding-top: 20px;
+  .botom-info {
+    width: 100%;
+    height: auto;
   }
 }
