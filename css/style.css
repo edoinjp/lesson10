@@ -169,7 +169,7 @@ body {
   flex-direction: row;
   width: 1088px;
   margin: 34px auto;
-  height: 260px;
+  height: auto;
   justify-content: space-between;
 }
 .quadrabox {
