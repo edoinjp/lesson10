@@ -19,6 +19,11 @@
     margin: 0 auto;
   }
 }
+@media (max-width: 1030px) {
+  .quadra-box {
+    height: auto;
+  }
+}
 @media (max-width: 600px) {
   .double-box {
     max-width: 100%;
